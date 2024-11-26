@@ -1,0 +1,16 @@
+<div class="contenedor">
+    <h2 class="title">Data API Dummy</h2>
+    <div class="contenedor_info">
+        <ul class="info" *ngFor="let item of data">
+            <img src={{item.thumbnail}} alt="">
+            <div class="info desc">
+                <li>Nombre: {{item.title}}</li>
+                <li>Descripción: {{item.description}}</li>
+                <li>Categoria: {{item.category}}</li>
+                <li>Descuento: {{item.discountPercentage}}</li>
+                <li>Precio: {{item.price}}</li>
+                <li>Disponibilida: {{item.stock}}</li>
+            </div>
+        </ul>
+    </div>
+</div>
